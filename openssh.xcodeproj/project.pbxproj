@@ -2383,7 +2383,7 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "openssh" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3144,6 +3144,7 @@
 		018496521497DC1700778DCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper copy";
 			};
 			name = Release;
@@ -3151,6 +3152,7 @@
 		018496531497DC1700778DCF /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper copy";
 			};
 			name = "Release-Embedded";
@@ -3158,6 +3160,7 @@
 		018496541497DC1700778DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper copy";
 			};
 			name = Debug;
@@ -3165,6 +3168,7 @@
 		1C4BA62B0FF0548000CA17F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install manpages";
 			};
 			name = Release;
@@ -3172,6 +3176,7 @@
 		1C6B2CBD0FEC4E74004F1935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "openbsd-compat";
@@ -3182,6 +3187,7 @@
 		1C6B2DAD0FEC5696004F1935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ssh;
@@ -3300,6 +3306,7 @@
 		1C6B2F560FEC62B7004F1935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = build_all;
 			};
 			name = Release;
@@ -3307,6 +3314,7 @@
 		1C76A71A0FF0152F00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install launchd files";
 			};
 			name = Release;
@@ -3314,6 +3322,7 @@
 		1C76A71E0FF0155400D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install open source licenses";
 			};
 			name = Release;
@@ -3321,6 +3330,7 @@
 		1C76A7240FF0157B00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install slogin link";
 			};
 			name = Release;
@@ -3328,6 +3338,7 @@
 		1C76A7270FF0158D00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper";
 			};
 			name = Release;
@@ -3335,6 +3346,7 @@
 		1C76A72D0FF015AC00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install sandbox profile";
 			};
 			name = Release;
@@ -3342,6 +3354,7 @@
 		1C76A7300FF015BD00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install config";
 			};
 			name = Release;
@@ -3349,6 +3362,7 @@
 		1C76A7330FF015D000D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install PAM";
 			};
 			name = Release;
@@ -3356,6 +3370,7 @@
 		1C76A73D0FF0163B00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install i18n";
 			};
 			name = Release;
@@ -3363,6 +3378,7 @@
 		1C76A7BB0FF023CA00D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install All";
 			};
 			name = Release;
@@ -3370,6 +3386,7 @@
 		1C76A7BD0FF023E200D35824 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Build and Install";
 			};
 			name = Release;
@@ -3377,6 +3394,7 @@
 		1C77BFA4112C99860070F7EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = testbots;
 			};
 			name = Release;
@@ -3384,6 +3402,7 @@
 		1C77BFA5112C99860070F7EE /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = testbots;
 			};
 			name = "Release-Embedded";
@@ -3391,6 +3410,7 @@
 		1C7D817A10FFC2BE00F0889F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "test-system";
 			};
 			name = Release;
@@ -3398,6 +3418,7 @@
 		1C7D817B10FFC2BE00F0889F /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "test-system";
 			};
 			name = "Release-Embedded";
@@ -3405,6 +3426,7 @@
 		1CCA49AC0FF1AD4E0004CEAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install Embedded Items";
 			};
 			name = Release;
@@ -3433,7 +3455,7 @@
 					"-lz",
 					"-Wl,-pie",
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -3454,13 +3476,14 @@
 					"-lz",
 					"-Wl,-pie",
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = "Release-Embedded";
 		};
 		7270878010363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Build and Install";
 			};
 			name = "Release-Embedded";
@@ -3468,6 +3491,7 @@
 		7270878110363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = build_all;
 			};
 			name = "Release-Embedded";
@@ -3475,6 +3499,7 @@
 		7270878210363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install All";
 			};
 			name = "Release-Embedded";
@@ -3482,6 +3507,7 @@
 		7270878310363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "openbsd-compat";
@@ -3492,6 +3518,7 @@
 		7270878410363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ssh;
@@ -3602,6 +3629,7 @@
 		7270878F10363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install launchd files";
 			};
 			name = "Release-Embedded";
@@ -3609,6 +3637,7 @@
 		7270879010363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install open source licenses";
 			};
 			name = "Release-Embedded";
@@ -3616,6 +3645,7 @@
 		7270879110363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install slogin link";
 			};
 			name = "Release-Embedded";
@@ -3623,6 +3653,7 @@
 		7270879210363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper";
 			};
 			name = "Release-Embedded";
@@ -3630,6 +3661,7 @@
 		7270879410363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install sandbox profile";
 			};
 			name = "Release-Embedded";
@@ -3637,6 +3669,7 @@
 		7270879510363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install config";
 			};
 			name = "Release-Embedded";
@@ -3644,6 +3677,7 @@
 		7270879610363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install PAM";
 			};
 			name = "Release-Embedded";
@@ -3651,6 +3685,7 @@
 		7270879710363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install i18n";
 			};
 			name = "Release-Embedded";
@@ -3658,6 +3693,7 @@
 		7270879810363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install manpages";
 			};
 			name = "Release-Embedded";
@@ -3665,6 +3701,7 @@
 		7270879910363E7800990E81 /* Release-Embedded */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install Embedded Items";
 			};
 			name = "Release-Embedded";
@@ -3695,13 +3732,14 @@
 					"-lz",
 					"-Wl,-pie",
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		731CAE151280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Build and Install";
 			};
 			name = Debug;
@@ -3709,6 +3747,7 @@
 		731CAE161280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = build_all;
 			};
 			name = Debug;
@@ -3716,6 +3755,7 @@
 		731CAE171280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install All";
 			};
 			name = Debug;
@@ -3723,6 +3763,7 @@
 		731CAE181280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "openbsd-compat";
@@ -3733,6 +3774,7 @@
 		731CAE191280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ssh;
@@ -3851,6 +3893,7 @@
 		731CAE241280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install launchd files";
 			};
 			name = Debug;
@@ -3858,6 +3901,7 @@
 		731CAE251280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install open source licenses";
 			};
 			name = Debug;
@@ -3865,6 +3909,7 @@
 		731CAE261280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install slogin link";
 			};
 			name = Debug;
@@ -3872,6 +3917,7 @@
 		731CAE271280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install keygen wrapper";
 			};
 			name = Debug;
@@ -3879,6 +3925,7 @@
 		731CAE281280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install sandbox profile";
 			};
 			name = Debug;
@@ -3886,6 +3933,7 @@
 		731CAE291280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install config";
 			};
 			name = Debug;
@@ -3893,6 +3941,7 @@
 		731CAE2A1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install PAM";
 			};
 			name = Debug;
@@ -3900,6 +3949,7 @@
 		731CAE2B1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install i18n";
 			};
 			name = Debug;
@@ -3907,6 +3957,7 @@
 		731CAE2C1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install manpages";
 			};
 			name = Debug;
@@ -3914,6 +3965,7 @@
 		731CAE2D1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "test-system";
 			};
 			name = Debug;
@@ -3921,6 +3973,7 @@
 		731CAE2E1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Install Embedded Items";
 			};
 			name = Debug;
@@ -3928,6 +3981,7 @@
 		731CAE2F1280C8140030B3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = testbots;
 			};
 			name = Debug;
