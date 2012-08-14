@@ -3204,7 +3204,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-25";
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-30";
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				OTHER_CFLAGS = "-fpie";
@@ -3221,7 +3221,6 @@
 					"-lbsm",
 					"-lcrypto",
 					"-lpam",
-					"-lwrap",
 					"-lz",
 					"-Wl,-pie",
 				);
@@ -3234,7 +3233,7 @@
 			baseConfigurationReference = 7270879B10363EF200990E81 /* AspenSDK.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-25";
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-30";
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				OTHER_CFLAGS = "-DTARGET_OS_EMBEDDED=1";
@@ -3466,7 +3465,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-25";
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/libutil-30";
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3484,7 +3483,6 @@
 					"-lbsm",
 					"-lcrypto",
 					"-lpam",
-					"-lwrap",
 					"-lz",
 					"-Wl,-pie",
 				);
