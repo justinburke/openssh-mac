@@ -1,7 +1,7 @@
 ![https://jcs.org/images/notaweblog/2011-04-19_cocoa-ssh-askpass.png](https://jcs.org/images/notaweblog/2011-04-19_cocoa-ssh-askpass.png)
 
 ### About
-This is a copy of Apple's OpenSSH 5.9p1 that is bundled with OS X 10.8, plus a modification to add a `RequireKeyConfirmation` option.  This no longer includes the `AddKeysToAgent` option modification, as it is no longer needed.
+This is a copy of Apple's [OpenSSH 5.9p1](http://opensource.apple.com/source/OpenSSH/OpenSSH-175.1/) that is bundled with OS X 10.8.2, plus a modification to add a `RequireKeyConfirmation` option.  This no longer includes the `AddKeysToAgent` option modification, as it is no longer needed.
 
 With `RequireKeyConfirmation` set to `yes` in `~/.ssh/config`, any identities added to `ssh-agent` will require confirmation before use.  Combined with the included `cocoa-ssh-askpass` wrapper around CocoaDialog, a GUI dialog will be presented when SSH tries to use an unlocked identity stored in the agent.  This applies to SSH spawned from a terminal (directly or through things like `git`), from a forwarded agent, and from any GUI program that uses it in the background to setup tunnels like Sequel Pro.
 
