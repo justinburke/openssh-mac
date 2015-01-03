@@ -1,0 +1,27 @@
+#!/usr/bin/ruby
+
+begin
+  require "shellwords"
+
+  prompt, keyinfo = ARGV[0].to_s.split("\n", 2)
+
+  if prompt && keyinfo
+    IO.popen([
+      "/Applications/Utilities/CocoaDialog.app/Contents/MacOS/CocoaDialog",
+      "standard-inputbox",
+      "--title", "OpenSSH",
+      "--informative-text",
+      Shellwords.escape("#{prompt} (type \"yes\" to confirm)\n\n" << keyinfo)
+    ].join(" "), "r+") do |p|
+      while p && !p.eof? && (input = p.readline.strip.downcase)
+        if input == "yes"
+          puts "yes"
+          exit
+        end
+      end
+    end
+  end
+rescue
+end
+
+puts "no"

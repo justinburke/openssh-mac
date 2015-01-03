@@ -49,3 +49,10 @@ passphrase, `/usr/libexec/ssh-askpass` will be invoked to prompt for
 confirmation.  If you have setup CocoaDialog properly, you should see a GUI
 prompt asking for confirmation.  Verify that clicking cancel denies access to
 your agent.
+
+### Paranoid Usage
+If you're feeling paranoid about clickjacking-style attacks where an attacker
+can get you to hit enter at just the right time to confirm the dialog, you can
+install the supplied `cocoa-paranoid-ssh-askpass` script in place of
+`/usr/libexec/ssh-askpass`.  This version will use a text input box and require
+you to type "yes" and hit enter/click Ok for the confirmation to be accepted.
