@@ -33,10 +33,6 @@
 #include "sandbox.h"
 #include "xmalloc.h"
 
-#ifndef SANDBOX_NAMED_EXTERNAL
-#define SANDBOX_NAMED_EXTERNAL 0x0003
-#endif
-
 /* Darwin/OS X sandbox */
 
 struct ssh_sandbox {
