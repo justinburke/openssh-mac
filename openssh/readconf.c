@@ -137,7 +137,7 @@ typedef enum {
 	oTunnel, oTunnelDevice, oLocalCommand, oPermitLocalCommand,
 	oVisualHostKey, oUseRoaming, oZeroKnowledgePasswordAuthentication,
 #ifdef __APPLE_KEYCHAIN__
-	oAskPassGUI,
+	oAskPassGUI, oRequireKeyConfirmation,
 #endif
 	oKexAlgorithms, oIPQoS, oRequestTTY,
 	oDeprecated, oUnsupported
@@ -259,6 +259,7 @@ static struct {
 #endif
 #ifdef __APPLE_KEYCHAIN__
 	{ "askpassgui", oAskPassGUI },
+	{ "requirekeyconfirmation", oRequireKeyConfirmation },
 #endif
 	{ "kexalgorithms", oKexAlgorithms },
 	{ "ipqos", oIPQoS },
@@ -1062,6 +1063,10 @@ parse_int:
 	case oAskPassGUI:
 		intptr = &options->ask_pass_gui;
 		goto parse_flag;
+
+	case oRequireKeyConfirmation:
+		intptr = &options->require_key_confirmation;
+		goto parse_flag;
 #endif
 
 	case oIPQoS:
@@ -1269,6 +1274,7 @@ initialize_options(Options * options)
 	options->zero_knowledge_password_authentication = -1;
 #ifdef __APPLE_KEYCHAIN__
 	options->ask_pass_gui = -1;
+	options->require_key_confirmation = -1;
 #endif
 	options->ip_qos_interactive = -1;
 	options->ip_qos_bulk = -1;
@@ -1427,6 +1433,8 @@ fill_default_options(Options * options)
 #ifdef __APPLE_KEYCHAIN__
 	if (options->ask_pass_gui == -1)
 		options->ask_pass_gui = 1;
+	if (options->require_key_confirmation == -1)
+		options->require_key_confirmation = 0;
 #endif
 	if (options->ip_qos_interactive == -1)
 		options->ip_qos_interactive = IPTOS_LOWDELAY;
