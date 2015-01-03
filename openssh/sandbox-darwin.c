@@ -63,6 +63,9 @@ ssh_sandbox_child(struct ssh_sandbox *box)
 
 	debug3("%s: starting Darwin sandbox", __func__);
 #ifdef __APPLE_SANDBOX_NAMED_EXTERNAL__
+#ifndef SANDBOX_NAMED_EXTERNAL
+#define SANDBOX_NAMED_EXTERNAL (0x3)
+#endif
 	if (sandbox_init("/System/Library/Sandbox/Profiles/org.openssh.sshd.sb",
 		SANDBOX_NAMED_EXTERNAL, &errmsg) == -1)
 #else
