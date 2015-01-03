@@ -47,6 +47,16 @@
 #include "ssh.h"
 #include "uidswap.h"
 
+#ifndef RPP_ECHO_OFF
+#define RPP_ECHO_OFF    0x00            /* Turn off echo (default). */
+#endif
+#ifndef RPP_ECHO_ON
+#define RPP_ECHO_ON     0x01            /* Leave echo on. */
+#endif
+#ifndef RPP_REQUIRE_TTY
+#define RPP_REQUIRE_TTY 0x02            /* Fail if there is no tty. */
+#endif
+
 static char *
 ssh_askpass(char *askpass, const char *msg)
 {
