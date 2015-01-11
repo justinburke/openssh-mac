@@ -9,6 +9,8 @@ begin
     IO.popen([
       "/Applications/Utilities/CocoaDialog.app/Contents/MacOS/CocoaDialog",
       "standard-inputbox",
+      "--timeout", "5",
+      "--float",
       "--title", "OpenSSH",
       "--informative-text",
       Shellwords.escape("#{prompt} (type \"yes\" to confirm)\n\n" << keyinfo)
